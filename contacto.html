@@ -9,9 +9,13 @@
 </head>
 
 <body>
-    <form action="">
-        <h1>Contacto</h1>
-        <input type="text" name="Nombre" placeholder="Escriba su Nombre" />
+    <form method="post" action="php/correo.php">
+        <h2>Contacto</h2>
+        <input type="text" name="Nombre" id="nombre" placeholder="Escriba su Nombre" />
+        <input type="text" name="Correo" id="correo" placeholder="Introduzca su correo" />
+        <input type="text" name="asunto" id="asunto" placeholder="Introduzca el asunto" />
+        <textarea name="Mensaje" id="mensaje" placeholder="Escriba su Mensaje"></textarea>
+        <input type="submit" value="ENVIAR" id="boton">
     </form>
 </body>
 
