@@ -32,7 +32,7 @@ h2 {
 
 aside {
     background-color: #647087;
-    flex-basis: 30%;
+    flex-basis: 32%;
     margin-right: 1%;
     margin-left: 1%;
 }
@@ -129,6 +129,18 @@ article h4 {
 
 
 /*REFERENCIAS*/
+#user1 img {
+    border-radius: 50%;
+}
+#user2 img {
+    border-radius: 50%;
+}
+#user3 img {
+    border-radius: 50%;
+}
+#user4 img {
+    border-radius: 50%;
+}
 
 .referencias {
     display: flex;
@@ -238,7 +250,7 @@ meter::-webkit-meter-bar {
     /* ASIDE */
     aside {
         background-color: #647087;
-        flex-basis: 30%;
+        flex-basis: 28%;
         margin-right: 1%;
         margin-left: 1%;
     }
@@ -319,7 +331,7 @@ meter::-webkit-meter-bar {
         background-color: #CEF6E3;
     }
     .referencias article {
-        width: 25%;
+        width: 50%;
         text-align: center;
     }
     /* DL*/
@@ -485,11 +497,12 @@ meter::-webkit-meter-bar {
     .referencias {
         display: flex;
         flex-wrap: wrap;
-        background-color: #CEF6E3;
+        width: 350px;
+        background-color: #b9f5d8;
     }
     .referencias article {
-        width: 50%;
-        text-align: center;
+        width: 100%;
+        text-align: left;
     }
     /* DL*/
     dl {
